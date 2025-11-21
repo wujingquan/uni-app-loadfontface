@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "pages/index/tab1",
+    "pages/index/tab2",
+    "pages/index/one"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "Tab1",
+        "pagePath": "pages/index/tab1"
+      },
+      {
+        "text": "Tab2",
+        "pagePath": "pages/index/tab2"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

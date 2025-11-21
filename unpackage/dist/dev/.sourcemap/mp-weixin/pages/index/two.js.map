@@ -1,0 +1,1 @@
+{"version":3,"file":"two.js","sources":["pages/index/two.vue?type=page"],"sourcesContent":["import MiniProgramPage from '/Users/develop/Documents/HBuilderProjects/loadFont/pages/index/two.vue'\nwx.createPage(MiniProgramPage)"],"names":[],"mappings":";;;;;;;AACA,GAAG,WAAW,eAAe;"}

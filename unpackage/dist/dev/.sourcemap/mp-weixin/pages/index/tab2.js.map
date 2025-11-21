@@ -1,0 +1,1 @@
+{"version":3,"file":"tab2.js","sources":["pages/index/tab2.vue?type=page"],"sourcesContent":["import MiniProgramPage from '/Users/develop/Documents/HBuilderProjects/loadFont/pages/index/tab2.vue'\nwx.createPage(MiniProgramPage)"],"names":[],"mappings":";;;;;;;AACA,GAAG,WAAW,eAAe;"}

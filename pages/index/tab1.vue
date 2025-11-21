@@ -1,24 +1,21 @@
 <template>
 	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
-		<view class="text-area">
-			<text class="title">{{title}}</text>
-		</view>
+		<text class="title overpass">Hello World !</text>
+		<text class="title">Hello World !</text>
+		<text class="title overpass">Tab1 - 150 - MI</text>
+		<text class="title">Tab1 - 150 - MI</text>
+		<button @click="goToOne">Go to One</button>
 	</view>
 </template>
 
 <script>
 	export default {
-		data() {
-			return {
-				title: 'Hello'
-			}
-		},
-		onLoad() {
-
-		},
 		methods: {
-
+			goToOne() {
+				uni.navigateTo({
+					url: '/pages/index/one'
+				})
+			}
 		}
 	}
 </script>
@@ -46,7 +43,12 @@
 	}
 
 	.title {
-		font-size: 36rpx;
 		color: #8f8f94;
+		font-size: 50px;
+		color: #a93361;
+		color: #3da414;
+	}
+	.overpass {
+		font-family: "Overpass";
 	}
 </style>

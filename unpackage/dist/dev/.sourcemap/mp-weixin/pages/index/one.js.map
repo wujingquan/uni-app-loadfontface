@@ -1,0 +1,1 @@
+{"version":3,"file":"one.js","sources":["pages/index/one.vue?type=page"],"sourcesContent":["import MiniProgramPage from '/Users/develop/Documents/HBuilderProjects/loadFont/pages/index/one.vue'\nwx.createPage(MiniProgramPage)"],"names":[],"mappings":";;;;;;;AACA,GAAG,WAAW,eAAe;"}
